@@ -19,7 +19,7 @@ const showWinner = (userWin, userChoice, compChoice) => {
     if (userWin) {
         userScore++;
         userScorepara.innerText = userScore;
-        msg.innerText = 'You win!';
+        msg.innerText = 'Sambit win!';
     } else {
         compScore++;
         compScorepara.innerText = compScore;
